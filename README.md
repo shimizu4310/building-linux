@@ -1,7 +1,7 @@
 # building-linux
 These programs and contents provides web application with SQL injection vulnerabilities for a LAMP enviroment.<br>
 
-## Rreparatio
+## Rreparation:
 If you would like to use these programs, you need to prepare a Japanese LAMP enviroments before.
 I test these programs below version LAMP enviroment.
  - CentOS 6.10
