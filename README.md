@@ -13,9 +13,9 @@ I test these programs below version LAMP enviroment.
 1. Bulid a LAMP enviroment.
 2. MySQL need "test_mysql" datadase and "testTable" table.
  > CREATE TABLE \`testTable\` (
- > `uid` VARCHAR(20) NOT NULL COMMENT "ID",
- > `passwd` VARCHAR(20) NOT NULL COMMENT "パスワード",
- > `email` VARCHAR(20) NOT NULL COMMENT "メールアドレス"
+ > \`uid\` VARCHAR(20) NOT NULL COMMENT "ID",
+ > \`passwd\` VARCHAR(20) NOT NULL COMMENT "パスワード",
+ > \`email\` VARCHAR(20) NOT NULL COMMENT "メールアドレス"
  > );
 
 3. MySQL need "test_mysql" datadase and "testTable" table. you can use "data_personalinfomation.csv" as a dummy infomations.
