@@ -1,0 +1,23 @@
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <title>メールアドレス確認</title>
+  </head>
+  <body>
+   <h2>メールアドレス登録確認</h2>
+   <p>ユーザIDとパスワードを入力してください。ユーザIDに登録されているメールアドレスを表示します。本来パスワード欄はマスキングされるべきですが、検証内容の都合でマスキングなしにしています。</p>
+    <form action="db.php" method="get">
+      <table>
+        <tr>
+          <td>ユーザID</td>
+          <td><input type="text" name="uid"></td>
+        </tr>
+        <tr>
+          <td>パスワード</td>
+          <td><input type="text" name="password"></td>
+        </tr>
+      </table>
+      <input type="submit" value="確認">
+    </form>
+  </body>
+</html>
