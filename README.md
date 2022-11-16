@@ -12,11 +12,11 @@ I test these programs below version LAMP enviroment.
 ## Usage:
 1. Bulid a LAMP enviroment.
 2. MySQL need "test_mysql" datadase and "testTable" table.
-```bash
-CREATE TABLE \`testTable\` (
-\`uid\` VARCHAR(20) NOT NULL COMMENT "ID",
-\`passwd\` VARCHAR(20) NOT NULL COMMENT "パスワード",
-\`email\` VARCHAR(20) NOT NULL COMMENT "メールアドレス"
+```SQL
+CREATE TABLE `testTable` (
+`uid` VARCHAR(20) NOT NULL COMMENT "ID",
+`passwd` VARCHAR(20) NOT NULL COMMENT "password",
+`email` VARCHAR(20) NOT NULL COMMENT "mail address"
 );
 ```
 
